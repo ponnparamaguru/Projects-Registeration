@@ -1,0 +1,293 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(img/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Qanelas Soft;
+}
+nav
+{
+    height: 75px;
+    margin: 0%;
+    display: flex;
+}
+nav img
+{
+    width: 20%;
+    padding-left: 10px;
+}
+nav ul
+{
+    margin: auto;
+    padding: 0 0 0;
+    list-style: none;
+    justify-content: left;
+    display: flex;
+}
+nav ul li
+{
+    justify-content: left;   
+    display: inline-block;
+}
+nav ul li a
+{
+    color: #005bb1;
+    text-decoration: none;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+nav ul li a:hover
+{
+    color: #f3772a;
+}
+header
+{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.home
+{
+    margin-left: 10%;
+}
+.home h3
+{
+    font-size:40px;
+    font-weight: 400;
+}
+.home h3:hover
+{
+    letter-spacing: 3px;
+    transition-duration: 1s;
+}
+.home h1
+{
+    font-size:60px;
+    color: #005bb1;
+    font-weight: bold;
+}
+.home h1:hover
+{
+    letter-spacing: 3px;
+    transition-duration: 1s;
+}
+.home h4
+{
+    font-size:30px;
+    font-weight: 600;
+}
+.home h4:hover
+{
+    letter-spacing: 3px;
+    transition-duration: 1s;
+}
+.reg-btn
+{
+    width: 13.5%;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #f3772a;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.view-btn
+{
+    width: 10%;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #005bb1;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.reg-btn:hover  
+{
+    background-color: #e25802;
+}
+.view-btn:hover
+{
+    background-color: #003f79;
+}
+.about h1
+{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #005bb1;
+}
+.about h2
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #f3772a;
+}
+.about p
+{
+    text-align: center;
+    font-size: 20px;
+}
+.icons
+{
+    text-align: center;
+    letter-spacing: 10px;
+    color: #005bb1;
+}
+.ico
+{
+    color: #005bb1;
+}
+.ico:hover
+{
+    color: #e25802;
+}
+
+#Register
+form
+{
+    text-align: center;
+}
+.reg h1
+{
+    font-size: 45px;
+    color: #005bb1;
+    font-weight: 900;
+    text-align: center;
+}
+.login h1
+{
+    font-size: 45px;
+    color: #005bb1;
+    font-weight: 900;
+    text-align: center;
+}
+label
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+input
+{
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    outline:none
+}
+input[type='text']
+{
+    padding-left: 1%;
+}
+input[type='password']
+{
+    padding-left: 1%;
+}
+.submit
+{
+    width: 10%;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #f3772a;
+    border-radius: 10px;
+    font-size: medium;   
+    cursor: pointer;
+}
+button
+{
+    width: 10%;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #f3772a;
+    border-radius: 10px;
+    font-size: medium;   
+    cursor: pointer;
+}
+table
+{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 1.5%;
+}
+table th
+{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    background-color: #f6a347;
+    color: white;
+}
+table td,th
+{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table tr
+{
+    font-size: large;
+    background-color: #f2f2f2;
+}
+table tr:hover
+{
+    background-color: #0069ab;
+    color: #fff;
+}
+footer
+{
+    position: absolute;
+    background-color: #005bb1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    height: 35px;
+    width: 100%;
+    bottom: 0;
+}
+.social-media
+{
+    color: #fff;
+    padding: 0.25%;
+    font-size: x-large;
+    letter-spacing: 5px;
+    text-align: right;
+}
+.social-media span
+{
+    letter-spacing: normal;
+}
+.icn
+{
+    color: #fff;
+}
+.icon
+{
+    color: #f3772a;
+}
+.icon:hover
+{
+    color: #fff;
+}
+.social-media i:hover
+{
+    color: #e25802;
+}
+
+.regsucc h1
+{
+    text-align: center;
+    font-size: 45px;
+    color: #005bb1;
+    font-weight: bold;
+}
